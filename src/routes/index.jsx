@@ -2,10 +2,10 @@ import React from 'react';
 import { Router } from '@reach/router';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import Chat from '../routes/Chat';
-import Dashboard from '../routes/Dashboard';
-import Login from '../routes/Login';
-import Signup from '../routes/Signup';
+import Chat from './Chat';
+import Dashboard from './Dashboard';
+import Signup from './Signup';
+import Login from './Login';
 
 const Routes = () => {
   return (
@@ -13,9 +13,9 @@ const Routes = () => {
       <Header />
       <Router>
         <Chat path='/chat' />
-        <Dashboard path='/Dashboard' />
-        <Login path='/Login' />
-        <Signup path='/Signup' />
+        <Dashboard path='/dashboard' />
+        <Login path='/login' />
+        <Signup path='/signup' />
       </Router>
       <Footer />
     </>
