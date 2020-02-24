@@ -1,10 +1,10 @@
 import React from 'react';
-import './styles.scss';
+import Register from '../../components/Register';
 
 function Signup() {
   return (
     <section>
-      <h2> this is the body of the register page</h2>
+      <Register />
     </section>
   );
 }
