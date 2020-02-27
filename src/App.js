@@ -1,6 +1,6 @@
 import React from 'react';
 import Routes from '../src/routes';
-import logo from '../src/assets/jade1';
+import logo from '../src/assets/images/jade1';
 import './App.css';
 
 function App() {
