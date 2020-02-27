@@ -6,6 +6,8 @@ import Chat from './Chat';
 import Dashboard from './Dashboard';
 import Signup from './Signup';
 import Login from './Login';
+import About from './About';
+import Event from './Event';
 
 const Routes = () => {
   return (
@@ -16,6 +18,8 @@ const Routes = () => {
         <Dashboard path='/dashboard' />
         <Login path='/login' />
         <Signup path='/signup' />
+        <About path='/about' />
+        <Event path='/event' />
       </Router>
       <Footer />
     </>
