@@ -9,22 +9,38 @@ import word from '../../assets/images/bluestackd'
 function Footer() {
   return (
     <footer>
-      <div>
-        <img src={jade} alt="Blue Stackd Jade Logo"></img>
-        <img src={word} alt="Blue Stackd Words"></img>
-        <p>Level the playing field</p>
-      </div>
-      <div>
-        <a href="https://www.facebook.com/stackd.gg/"><FontAwesomeIcon icon={faFacebookF} /></a>
-        <a href="https://twitter.com/GgStackd"><FontAwesomeIcon icon={faTwitter} /></a>
-        <a href="https://www.linkedin.com/company/stackd-gaming/"><FontAwesomeIcon icon={faLinkedinIn} /></a>
-        <a href="https://www.twitch.tv/Stackd_gg"><FontAwesomeIcon icon={faTwitch} /></a>
-        <a href="https://www.instagram.com/stackd.gg"><FontAwesomeIcon icon={faInstagram} /></a>
-        <a href="https://discord.gg/VsyHf6d"><FontAwesomeIcon icon={faDiscord} /></a>
-        <a href="mailto:info@stackd.gg"><FontAwesomeIcon icon={faEnvelope} /></a>
-      </div>
-      <div>
-
+      <div class="container">
+        <div id="stackd-brand">
+          <div id="blue-logo">
+            <img id="blueJade" src={jade} alt="Blue Stackd Jade Logo"></img>
+            <img id="blueStackd" src={word} alt="Blue Stackd Words"></img>
+          </div>
+          <h1 id="slogan">Level the playing field</h1>
+        </div>
+        <div id="social-link-area">
+          <p>Join us on</p>
+          <div id="social-links">
+            <a href="https://www.facebook.com/stackd.gg/"><FontAwesomeIcon id="icon" icon={faFacebookF} /></a>
+            <a href="https://twitter.com/GgStackd"><FontAwesomeIcon id="icon" icon={faTwitter} /></a>
+            <a href="https://www.linkedin.com/company/stackd-gaming/"><FontAwesomeIcon id="icon" icon={faLinkedinIn} /></a>
+            <a href="https://www.twitch.tv/Stackd_gg"><FontAwesomeIcon id="icon" icon={faTwitch} /></a>
+            <a href="https://www.instagram.com/stackd.gg"><FontAwesomeIcon id="icon" icon={faInstagram} /></a>
+            <a href="https://discord.gg/VsyHf6d"><FontAwesomeIcon id="icon" icon={faDiscord} /></a>
+            <a href="mailto:info@stackd.gg"><FontAwesomeIcon id="icon" icon={faEnvelope} /></a>
+          </div>
+        </div>
+        <div id="link-area">
+          <h1>Links</h1>
+          <div id="site-links">
+            <a href="#">ABOUT US</a>
+            <a href="#">EVENT PAGE</a>
+          </div>
+        </div>
+        <div id="contact-area">
+          <h1>Contact</h1>
+          <p>Don't hesitate to ask us <br></br>questions or give feedback!</p>
+          <button>CONTACT SUPPORT</button>
+        </div>
       </div>
     </footer>
   );
