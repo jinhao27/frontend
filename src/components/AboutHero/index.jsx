@@ -1,10 +1,25 @@
 import React from 'react';
 import './styles.scss';
+import bgimage from '../../assets/images/AboutHero_bg';
+import longlogo from '../../assets/images/Logo_hwhite'
 
 function AboutHero() {
   return (
     <section>
-      <h2> this is the about hero</h2>
+      <div class="bkgd">
+        <div class="hero">
+          <img src={longlogo}></img>
+          
+          <div class="herotext">
+            <h1>Our Company</h1>          
+          </div>
+          
+        </div>
+        
+        <img src={bgimage}></img> 
+
+      </div> 
+
     </section>
   );
 }
