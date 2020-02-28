@@ -9,10 +9,6 @@ body, html{
     background-color: black;
     height: 100%;
     width: 100%;
-    // margin-top: 0px;
-    // margin-right: auto;
-    // margin-bottom: 0px;
-    // margin-left: auto;
 }
 .bkgd img {
     background-position: center;
@@ -24,9 +20,12 @@ body, html{
 .hero {
     position: absolute;
     width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 80pt;
 }
 
-.hero img {
+.hero img { //logo
     display: block;
     position: relative;
     margin-top: 200px;
@@ -35,11 +34,26 @@ body, html{
     width: 40%;
 }
 
-.herotext {
+.herotitle {
     display: block;
     position: relative;
     margin-top: -130px;
-    text-align: center;
-    color: white;
-    font-size: 80pt;
+
+}
+
+.herotext {
+    display: block;
+    position: relative;
+    margin-top: 220px;
+    
+    h1 {
+        font-size: 80pt;
+    }
+    p {
+        font-size: 45pt;
+        margin: -70px
+    }
+    a {
+        color: white;
+    }
 }

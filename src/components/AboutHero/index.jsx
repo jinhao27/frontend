@@ -9,17 +9,27 @@ function AboutHero() {
       <div class="bkgd">
         <div class="hero">
           <img src={longlogo}></img>
-          
-          <div class="herotext">
-            <h1>Our Company</h1>          
+
+          <div class="herotitle">
+            <h1>Our Company</h1>
           </div>
-          
         </div>
-        
-        <img src={bgimage}></img> 
 
-      </div> 
+        <img src={bgimage}></img>
+      </div>
 
+      "Team page goes here"
+
+      <div class="bkgd">
+        <div class="hero">
+          <div class="herotext">
+            <h1>Looking to chat?</h1>
+            <p>Contact us at <a href="mailto:info@stackd.gg?subject=Web Inquiry">info@stackd.gg</a></p>
+          </div>
+        </div>
+
+        <img src={bgimage}></img>
+      </div>
     </section>
   );
 }
