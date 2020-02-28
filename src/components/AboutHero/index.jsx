@@ -10,7 +10,7 @@ function AboutHero() {
         <div class="hero">
           <img src={longlogo}></img>
 
-          <div class="herotitle">
+          <div class="herotext">
             <h1>Our Company</h1>
           </div>
         </div>
@@ -20,9 +20,9 @@ function AboutHero() {
 
       "Team page goes here"
 
-      <div class="bkgd">
+      <div class="banner">
         <div class="hero">
-          <div class="herotext">
+          <div class="bannertext">
             <h1>Looking to chat?</h1>
             <p>Contact us at <a href="mailto:info@stackd.gg?subject=Web Inquiry">info@stackd.gg</a></p>
           </div>

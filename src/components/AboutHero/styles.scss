@@ -9,12 +9,14 @@ body, html{
     background-color: black;
     height: 100%;
     width: 100%;
+
 }
 .bkgd img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%; 
+    width: 100%;
+    max-height: 800px;
 }
 
 .hero {
@@ -34,24 +36,36 @@ body, html{
     width: 40%;
 }
 
-.herotitle {
+.herotext {
     display: block;
-    position: relative;
     margin-top: -130px;
 
 }
 
-.herotext {
+.banner{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+
+}
+.banner img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-height: 600px; 
+}
+
+.bannertext {
     display: block;
-    position: relative;
-    margin-top: 220px;
-    
+    margin-top: 125pt;
+
     h1 {
-        font-size: 80pt;
+        font-size: 70pt;
     }
     p {
-        font-size: 45pt;
-        margin: -70px
+        font-size: 40pt;
+        margin: -80px
     }
     a {
         color: white;
