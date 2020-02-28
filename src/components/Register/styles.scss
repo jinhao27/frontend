@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#register-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 700px;
+    height: 600px;
+    background-color: rgba(22, 20, 20, 0.67);
+}
+
+h1 {
+    font-family: Russo One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+button {
+    width: 80%;
+    height: 50px;
+}
