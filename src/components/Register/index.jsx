@@ -8,7 +8,6 @@ function Signup() {
   return (
     <section>
       <div class="container">
-        <div id="background"></div>
         <div id="register-area">
           <h1>REGISTER</h1>
           <form>
@@ -19,10 +18,9 @@ function Signup() {
           </div>
           <a id="have-account" href="/login">ALREADY HAVE AN ACCOUNT?</a>
           <div id="terms">
-            <p>By signing up you agree to the Stackd <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.</p>
+            <p>By signing up you agree to the Stackd <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.</p>            </div>
           </div>
         </div>
-      </div>
     </section>
   );
 }
