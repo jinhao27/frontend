@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
 
-.container {
+.signup {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,7 +27,7 @@
     height: 50px;
 }
 
-h1 {
+#register-h1 {
     font-family: Russo One;
     font-style: normal;
     font-weight: normal;
@@ -38,11 +38,11 @@ h1 {
     margin: 10px;
 }
 
-#icon {
+#discord-icon {
     margin-right: 15px;
 }
 
-button {
+#discord-signup {
     width: 100%;
     height: 100%;
     border: 2px solid white;
@@ -58,7 +58,7 @@ button {
     width: 20%;
 }
 
-hr {
+#hrid {
     border: 1px solid white;
 }
 

@@ -7,14 +7,14 @@ import bg from '../../assets/images/league-bg';
 function Signup() {
   return (
     <section>
-      <div class="container">
+      <div class="signup">
         <div id="register-area">
-          <h1>REGISTER</h1>
+          <h1 id="register-h1">REGISTER</h1>
           <form>
-            <button><FontAwesomeIcon id="icon" icon={faDiscord} />SIGN UP WITH DISCORD</button>
+            <button id="discord-signup"><FontAwesomeIcon id="discord-icon" icon={faDiscord} />SIGN UP WITH DISCORD</button>
           </form>
           <div id="hr-line">
-            <hr></hr>
+            <hr id="hrid"></hr>
           </div>
           <a id="have-account" href="/login">ALREADY HAVE AN ACCOUNT?</a>
           <div id="terms">

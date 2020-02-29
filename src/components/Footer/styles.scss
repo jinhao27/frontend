@@ -15,11 +15,11 @@ footer {
     height: 90px;
 }
 
-#slogan {
+.slogan {
     margin-top: 10px;
 }
 
-.container {
+.footer-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -147,7 +147,7 @@ footer {
     text-align: center;
 }
 
-h1 {
+.heading {
     font-family: Russo One;
     font-style: normal;
     font-weight: normal;
