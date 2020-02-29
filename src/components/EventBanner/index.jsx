@@ -1,10 +1,15 @@
 import React from 'react';
 import './styles.scss';
+import logo from 'C:/Users/KASA/Desktop/stackd/frontend/src/assets/images/logo.png';
 
 function EventBanner() {
   return (
     <section>
-      <h2> this is the event banner</h2>
+      <p>SuperStackd</p>
+      <p>03.20.2020</p>
+      <p>#leveltheplayingfield</p>
+      <img src={logo} alt="logo"></img>
+
     </section>
   );
 }
