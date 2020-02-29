@@ -1,73 +1,66 @@
-body, html{
-    height: 100%;
+// There's an override/ transform thats coming from a "user agent stylesheet"
+// Messing with styling in general I think but especially noticable with fonts
+// (notice h1 in both banners are the same font size but title banner font is larger than email banner)
+//
+
+@import url("https://fonts.googleapis.com/css?family=Russo+One&display=swap");
+
+body,
+html {
+  height: 100%;
 }
 
 .section {
 }
 
-.bkgd{
-    background-color: black;
-    height: 100%;
-    width: 100%;
-
-}
-.bkgd img {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    max-height: 800px;
+//logo banner
+.title-bg {
+  height: 700px;
+  background: black center url("../../assets/images/AboutHero_bg");
+  background-size: cover;
 }
 
-.hero {
-    position: absolute;
-    width: 100%;
-    text-align: center;
+.container {
+  height: 100%;
+  width: 70%;
+  margin: auto;
+}
+
+#long-logo {
+  height: 25%;
+  margin-top: 190px;
+}
+
+.title-text {
+  margin-top: -60px;
+  color: white;
+  font-family: Russo One;
+  font-size: 60pt;
+}
+
+//email banner
+.banner-bg {
+  height: 550px;
+  background: black center url("../../assets/images/AboutHero_bg");
+  background-size: cover;
+}
+
+.banner-text {
+  display: flex;
+  flex-direction: column;
+  color: white;
+
+  h1 {
+    margin-top: 115pt;
+    font-family: Russo One;
+    font-size: 60pt;
+  }
+  p {
+    margin-top: -50px;
+    margin-bottom: 0px;
+    font-size: 50pt;
+  }
+  a {
     color: white;
-    font-size: 80pt;
-}
-
-.hero img { //logo
-    display: block;
-    position: relative;
-    margin-top: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-}
-
-.herotext {
-    display: block;
-    margin-top: -130px;
-
-}
-
-.banner{
-    background-color: black;
-    height: 100%;
-    width: 100%;
-
-}
-.banner img {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    max-height: 600px; 
-}
-
-.bannertext {
-    display: block;
-    margin-top: 125pt;
-
-    h1 {
-        font-size: 70pt;
-    }
-    p {
-        font-size: 40pt;
-        margin: -80px
-    }
-    a {
-        color: white;
-    }
+  }
 }
