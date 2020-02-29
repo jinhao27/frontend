@@ -32,14 +32,16 @@ function Footer() {
         <div id="link-area">
           <h1>Links</h1>
           <div id="site-links">
-            <a href="#">ABOUT US</a>
-            <a href="#">EVENT PAGE</a>
+            <a href="/about">ABOUT US</a>
+            <a href="/event">EVENT PAGE</a>
           </div>
         </div>
         <div id="contact-area">
           <h1>Contact</h1>
           <p>Don't hesitate to ask us <br></br>questions or give feedback!</p>
-          <button>CONTACT SUPPORT</button>
+          <form>
+            <button type="submit" formaction="mailto:info@stackd.gg">CONTACT SUPPORT</button>
+          </form>
         </div>
       </div>
     </footer>
