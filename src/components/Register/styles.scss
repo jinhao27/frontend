@@ -7,6 +7,12 @@
     justify-content: space-evenly;
 }
 
+#background {
+    height: 1000px;
+    width: 100%;
+    background-image: url('../../assets/images/league-bg');
+}
+
 #register-area {
     display: flex;
     flex-direction: column;

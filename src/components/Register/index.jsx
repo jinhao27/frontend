@@ -1,13 +1,14 @@
 import React from 'react';
 import './styles.scss';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faDiscord } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDiscord } from '@fortawesome/free-brands-svg-icons';
+import bg from '../../assets/images/league-bg';
 
 function Signup() {
   return (
     <section>
       <div class="container">
-        <div id="bg"></div>
+        <div id="background"></div>
         <div id="register-area">
           <h1>REGISTER</h1>
           <form>
