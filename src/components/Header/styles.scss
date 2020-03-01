@@ -25,13 +25,19 @@ ul {
   }
 
 .links {
-    display: inline;
-    float:right;
-    justify-content: space-evenly;
+    display: block;
+    text-align: center;
+    position: relative;
+    float: right;
+    //justify-content: flex-end;
+    //margin-left: 8vw;
+    right: 5%;
+    width: 100%;
 }
 
 li {
   float: right;
+  display:block;
 }
 
 li a {

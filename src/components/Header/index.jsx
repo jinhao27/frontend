@@ -8,10 +8,8 @@ function Header() {
   return (
     <section>
 
-      <div>
       <img src={imageheader} className="jadeheader"></img>
       <img src={stackdheader} className="jadetext"></img>
-      </div>
       <div className="links">
 
       <ul>
