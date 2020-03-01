@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles.scss';
-import logo from 'C:/Users/KASA/Desktop/stackd/frontend/src/assets/images/logo.png';
+import logo from '../../assets/images/logo.png';
 
 function EventBanner() {
   return (
