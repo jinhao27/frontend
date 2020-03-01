@@ -13,9 +13,13 @@ function Header() {
       <img src={stackdheader} className="jadetext"></img>
       </div>
       <div className="links">
-      <h2>SIGN IN</h2> <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet"></link>
-      <h2>ABOUT US</h2>
-      <h2>EVENT</h2>
+
+      <ul>
+  <li><a href="default.asp">SIGN IN</a></li>
+  <li><a href="news.asp">ABOUT US</a></li>
+  <li><a href="contact.asp">EVENT</a></li>
+</ul>
+      <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet"></link>
       </div>
     </section>
   );
