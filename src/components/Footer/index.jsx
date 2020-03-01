@@ -9,13 +9,13 @@ import word from '../../assets/images/bluestackd'
 function Footer() {
   return (
     <footer>
-      <div class="container">
+      <div class="footer-container">
         <div id="stackd-brand">
           <div id="blue-logo">
             <img id="blueJade" src={jade} alt="Blue Stackd Jade Logo"></img>
             <img id="blueStackd" src={word} alt="Blue Stackd Words"></img>
           </div>
-          <h1 id="slogan">Level the playing field</h1>
+          <h1 class="heading slogan">Level the playing field</h1>
         </div>
         <div id="social-link-area">
           <p>Join us on</p>
@@ -30,14 +30,14 @@ function Footer() {
           </div>
         </div>
         <div id="link-area">
-          <h1>Links</h1>
+          <h1 class="heading">Links</h1>
           <div id="site-links">
             <a href="/about">ABOUT US</a>
             <a href="/event">EVENT PAGE</a>
           </div>
         </div>
         <div id="contact-area">
-          <h1>Contact</h1>
+          <h1 class="heading">Contact</h1>
           <p>Don't hesitate to ask us <br></br>questions or give feedback!</p>
           <form>
             <button type="submit" formaction="mailto:info@stackd.gg">CONTACT SUPPORT</button>
