@@ -1,0 +1,51 @@
+section {
+    background-color: #282c34;
+    padding-left: 60px;
+    display: flex;
+    background-color: #282c34;
+    color: white;
+}
+
+.jadeheader {
+    height: 40px;
+}
+
+.jadetext {
+    height: 40px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: right;
+    float: right;
+  }
+
+.links {
+    display: inline;
+    float:right;
+    justify-content: space-evenly;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float:right;
+  font-family: 'Source Sans Pro';
+  font-size: 20px;
+  font-weight: bold;
+}
+
+li a:hover {
+  color: #00b2b5;
+}
