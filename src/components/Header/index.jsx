@@ -5,7 +5,7 @@ import stackdheader from '../../assets/images/StackdHeaderText.png';
 
 function Header() {
   return (
-    <section>
+    <section className='header'>
       <div className='logo'>
         <img src={imageheader} className='jadeheader'></img>
         <img src={stackdheader} className='jadetext'></img>
