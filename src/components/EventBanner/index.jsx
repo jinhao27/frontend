@@ -4,12 +4,19 @@ import logo from '../../assets/images/logo.png';
 
 function EventBanner() {
   return (
-    <section>
-      <p>SuperStackd</p>
-      <p>03.20.2020</p>
-      <p>#leveltheplayingfield</p>
-      <img src={logo} alt="logo"></img>
-
+    <section className="container">
+      <div className="content">
+        <div className="text">
+          <p><b>Super<font color="#61dafb">Stackd</font></b></p>
+          <p><b>03.20.2020</b></p>
+          <div className="slogan">
+          <p><b>#leveltheplayingfield</b></p>
+        </div>
+        </div>
+        <div className ="log">
+          <img src={logo} alt="logo"></img>
+        </div>
+      </div>
     </section>
   );
 }
