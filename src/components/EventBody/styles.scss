@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
+
+#event-body {
+    background-color: #272727;
+}
+
+#intro-body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 40px;
+}
+
+#intro-text {
+    width: 75%;
+}
+
+#intro-text h1 {
+    font-family: Russo One;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 45px;
+    line-height: 60px;
+    color: white;
+}
+
+#location-info {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#map {
+    width: 55%;
+}
+
+#map img {
+    width: 100%;
+}
+
+#text-info {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#sub {
+    font-family: Russo One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    color: rgb(68, 233, 255);
+    margin: 0;
+}
+
+#p-info {
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: white;
+    text-align: left;
+    margin: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#description-body {
+    background-color: #1B1B1B;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#description-sub {
+    font-family: Russo One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgb(68, 233, 255);
+    text-align: left;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: -10px;
+}
+
+#description-text {
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    color: white;
+    text-align: left;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
