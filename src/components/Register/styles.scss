@@ -13,13 +13,13 @@
 }
 
 #register-area {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 32%;
-    height: 76%;
-    background-color: rgba(22, 20, 20, 0.67);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 32%;
+  height: 76%;
+  background-color: rgba(22, 20, 20, 0.67);
 }
 
 #register-area form {
@@ -76,11 +76,12 @@
 }
 
 #terms p {
-    font-family: Verdana;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    color: #ADBAC9;
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #adbac9;
+  padding: 50px;
 }
 
 #terms a {

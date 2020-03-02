@@ -1,10 +1,15 @@
-section {
+.header {
   background-color: #282c34;
   padding-left: 60px;
-  display: flex;
   background-color: #282c34;
   color: white;
+  display: flex;
   flex-wrap: wrap;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
 }
 
 .logo {
@@ -29,11 +34,7 @@ ul {
 }
 
 .links {
-  display: block;
-  text-align: center;
-  position: relative;
-  float: right;
-  right: 5%;
+  justify-content: flex-end;
   width: 100%;
 }
 
