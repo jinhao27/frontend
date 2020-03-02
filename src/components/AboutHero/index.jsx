@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles.scss";
 import longlogo from "../../assets/images/Logo_hwhite";
+import AboutBody from "../AboutBody";
 // import bgimage from "../../assets/images/AboutHero_bg";
 // had trouble with bg stretching here so moved it to css file.
 
@@ -10,29 +11,25 @@ function AboutHero() {
 
       {/* Title banner */}
       <div class="title-bg">
-        <div class="container">
-          <img src={longlogo} id="long-logo"></img>
-          <div class="title-text">
-            <h1>Our Company</h1>
-          </div>
+        <img src={longlogo} id="long-logo"></img>
+        <div class="title-text">
+          <h1>Our Company</h1>
         </div>
       </div>
       
-      {/* Placeholder */}
-      "Team page goes here"
+      {/* About Body */}
+      <AboutBody />
 
       {/* Email banner */}
-      <div class="banner-bg">
-        <div class="banner-text">
-          <h1>Looking to chat?</h1>
-          <p>
-            {" "}
+      <div class="banner">
+        <h1>Looking to chat?</h1>
+        <p>
+          {" "}
             Contact us at{" "}
             <a href="mailto:info@stackd.gg?subject=Web Inquiry">
               info@stackd.gg
             </a>
-          </p>
-        </div>
+        </p>
       </div>
 
     </section>
