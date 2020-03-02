@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
 
 .signup {
-<<<<<<< HEAD
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,18 +10,6 @@
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
     height: 90vh;
-=======
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  background-image: url('../../assets/images/league-bg');
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover;
-  height: 80vh;
-  width: 100%;
->>>>>>> fcf1915ea9b09d2eb6bbadd0a9da3f92a730db2d
 }
 
 #register-area {
