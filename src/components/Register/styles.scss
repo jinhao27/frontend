@@ -1,94 +1,93 @@
 @import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
 
 .signup {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  background-image: url('../../assets/images/league-bg');
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover;
-  height: 80vh;
-  width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url('../../assets/images/league-bg');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    height: 80vh;
 }
 
 #register-area {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  // width: 32%;
-  height: 76%;
-  background-color: rgba(22, 20, 20, 0.67);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 32%;
+    height: 76%;
+    background-color: rgba(22, 20, 20, 0.67);
 }
 
 #register-area form {
-  width: 80%;
-  height: 50px;
+    width: 80%;
+    height: 50px;
 }
 
 #register-h1 {
-  font-family: Russo One;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 40px;
-  line-height: 60px;
-  text-align: center;
-  color: #ffffff;
-  margin: 10px;
+    font-family: Russo One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 10px;
 }
 
 #discord-icon {
-  margin-right: 15px;
+    margin-right: 15px;
 }
 
 #discord-signup {
-  width: 100%;
-  height: 100%;
-  border: 2px solid white;
-  background-color: #24283b;
-  font-family: Verdana;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  color: #ffffff;
+    width: 100%;
+    height: 100%;
+    border: 2px solid white;
+    background-color: #24283B;
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFFFF;
 }
 
 #hr-line {
-  width: 20%;
+    width: 20%;
 }
 
 #hrid {
-  border: 1px solid white;
+    border: 1px solid white;
 }
 
 #have-account {
-  font-family: Verdana;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  text-decoration: none;
-  color: #ffffff;
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 #terms {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 #terms p {
-  font-family: Verdana;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  color: #adbac9;
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #ADBAC9;
 }
 
 #terms a {
-  font-family: Verdana;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  text-decoration: none;
-  color: #ffffff;
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-decoration: none;
+    color: #FFFFFF;
 }
