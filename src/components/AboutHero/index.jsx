@@ -22,11 +22,11 @@ function AboutHero() {
 
       {/* Email banner */}
       <div class="banner">
-        <h1>Looking to chat?</h1>
-        <p>
+        <h1 id="banner-h1">Looking to chat?</h1>
+        <p id="banner-p">
           {" "}
             Contact us at{" "}
-            <a href="mailto:info@stackd.gg?subject=Web Inquiry">
+            <a id="banner-a" href="mailto:info@stackd.gg?subject=Web Inquiry">
               info@stackd.gg
             </a>
         </p>
