@@ -1,1 +1,59 @@
+// There's an override/ transform thats coming from a "user agent stylesheet"
+// Messing with styling in general I think but especially noticable with fonts
+// (notice h1 in both banners are the same font size but title banner font is larger than email banner)
+//
 
+@import url("https://fonts.googleapis.com/css?family=Russo+One&display=swap");
+
+body,
+html {
+  height: 100%;
+}
+
+//logo banner
+.title-bg {
+  height: 60vh;
+  background: black center url("../../assets/images/AboutHero_bg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#long-logo {
+  height: 25%;
+  margin: 0;
+}
+
+.title-text {
+  color: white;
+  font-family: Russo One;
+  font-size: 50pt;
+  margin: -60px;
+}
+
+//email banner
+.banner {
+  height: 40vh;
+  background: black center url("../../assets/images/AboutHero_bg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+#banner-h1 {
+  font-family: Russo One;
+  font-size: 45pt;
+  margin-bottom: 0;
+}
+#banner-p {
+  font-size: 27.5pt;
+  margin-top: 0;
+}
+#banner-a {
+  color: white;
+}
