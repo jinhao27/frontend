@@ -10,7 +10,6 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
     padding: 40px;
 }
 
@@ -103,4 +102,74 @@
     margin-right: 4%;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+#register-section-link {
+    height: 60vh;
+    background-image: url('../../assets/images/invictusbanner');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#to-register {
+    font-family: Russo One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    color: white;
+}
+
+#event-button {
+  background-color: rgba(68, 233, 255, 0.43);
+  border: none;
+  border-radius: 20px;
+  padding: 30px 50px 30px 50px;
+
+  font-family: Russo One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  color: #d9d7d7;
+  text-align: center;
+}
+
+#guest-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#guest-text h1 {
+    font-family: Russo One;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 60px;
+    color: rgb(68, 233, 255);
+    text-align: left;
+}
+
+#guest-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#profileimg {
+    width: 90%;
+}
+
+#name {
+    font-family: Russo One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    color: white;
+    margin: 20px;
 }

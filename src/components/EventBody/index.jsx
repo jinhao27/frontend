@@ -40,28 +40,38 @@ function EventBody() {
           <p id="description-text">Note: The first competitors that sign up have a higher chance of playing in an elevated gaming area. The different options are: the VIP rooms, Stage area, and main area.</p>
         </div>
 
-        <div id="register-section">
+        <div id="register-section-link">
           <h1 id="to-register">To register for the event,</h1>
           <form>
-          <button type="submit" formaction="https://gamers.beam.gg/event/SuperStackd-9853736">Click here.</button>
+          <button id="event-button" type="submit" formaction="https://gamers.beam.gg/event/SuperStackd-9853736">Click here.</button>
           </form>
         </div>
 
         <div id="guest-section">
+
+          <div id="guest-section-div">
           <div id="guest-text">
             <h1>Notable Guests</h1>
           </div>
 
-          <div id="guest-section">
-            <div id="king-nidhogg">
-              <img src={ profile1 } id="profileimg" alt="Image of King Nidhogg"></img>
-              <p id="name">King Nidhogg</p>
+            <div id="guest-row">
+
+              <div id="king-nidhogg">
+                <div id="profile-picture">
+                  <img src={ profile1 } id="profileimg" alt="Image of King Nidhogg"></img>
+                </div>
+                <p id="name">King Nidhogg</p>
+              </div>
+
+              <div id="arwina-mogul">
+                <div id="profile-picture">
+                  <img src={ profile2 } id="profileimg" alt="Image of Arwina Mogul"></img>
+                </div>
+                <p id="name">Arwina Mogul</p>
+              </div>
+
             </div>
-            <div id="arwina-mogul">
-              <img src={ profile2 } id="profileimg" alt="Image of Arwina Mogul"></img>
-              <p id="name">Arwina Mogul</p>
             </div>
-          </div>
         </div>
         
       </div>
