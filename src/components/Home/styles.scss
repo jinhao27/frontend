@@ -20,6 +20,7 @@
 
 .home-container {
   display: flex;
+  padding: 50px;
   @media (max-width: 768px) {
     padding-left: 20px;
     flex-wrap: wrap;
