@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-image: url('../../assets/images/homebackground');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  height: 80vh;
+  background-color: black;
+}
+
+.home-container {
+  display: flex;
+  padding: 40px;
+}
+
+.home-left {
+  text-align: left;
+}
+
+.home-logo {
+  width: 400px;
+}
+
+.home-h1 {
+  font-family: Russo One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 60px;
+  color: #ffffff;
+  width: 50%;
+}
+
+.home-description {
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  color: #ffffff;
+  text-align: left;
+  width: 60%;
+}
+
+#have-account {
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.home-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.home-text {
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  color: #ffffff;
+  text-align: left;
+  width: 100%;
+}
+
+.join-button {
+  width: 400px;
+  height: 80px;
+  background-color: rgba(68, 233, 255, 0.6);
+  border: none;
+  border-radius: 20px;
+  margin-top: 30px;
+
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #d9d7d7;
+  text-align: center;
+}

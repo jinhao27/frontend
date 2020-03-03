@@ -8,6 +8,7 @@ import Signup from './Signup';
 import Login from './Login';
 import About from './About';
 import Event from './Event';
+import Home from '../components/Home';
 
 const Routes = () => {
   return (
@@ -21,6 +22,7 @@ const Routes = () => {
         <About path='/about' />
         <Event path='/event' />
       </Router>
+      <Home />
       <Footer />
     </>
   );
