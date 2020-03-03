@@ -1,8 +1,8 @@
 import React from 'react';
 import './styles.scss';
 import mapimg from '../../assets/images/map';
-import profile1 from '../../assets/images/nidhogg';
-import profile2 from '../../assets/images/arwina';
+import profile1 from '../../assets/images/kingnidhogg';
+import profile2 from '../../assets/images/arwinamogul';
 
 function EventBody() {
   return (
