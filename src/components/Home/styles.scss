@@ -59,7 +59,7 @@
 .home-right {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -70,7 +70,7 @@
   font-size: 20px;
   text-decoration: none;
   color: #ffffff;
-  text-align: left;
+  text-align: center;
   width: 100%;
 }
 
@@ -84,7 +84,7 @@
   font-family: Verdana;
   font-style: normal;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 30px;
   color: #d9d7d7;
   text-align: center;
 }
