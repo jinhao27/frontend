@@ -1,6 +1,5 @@
 .header {
   background-color: #272727;
-  padding-left: 60px;
   color: white;
   display: flex;
   flex-wrap: wrap;
@@ -9,10 +8,18 @@
 .wrapper {
   display: flex;
   width: 100%;
+  flex-direction: column;
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
 }
 
 .logo {
   display: flex;
+  padding-left: 20px;
+  @media (min-width: 768px) {
+    padding-left: 60px;
+  }
 }
 
 .jadeheader {

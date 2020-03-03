@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+
+.container {
+  background-image: url('../../assets/images/event');
+  background-repeat: no-repeat;
+  height: 60vh;
+  background-color: black;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  @media (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+
+.banner-logo {
+  text-align: center;
+  margin-top: 95px;
+}
+.text {
+  color: white;
+  text-align: left;
+  font-family: Orbitron;
+  padding-top: 100px;
+  padding-left: 40px;
+  font-size: 54px;
+}
+
+.slogan {
+  font-size: 25px;
+}
