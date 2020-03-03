@@ -22,7 +22,7 @@ function EventBanner() {
           </div>
         </div>
         <div className='banner-logo'>
-          <img src={logo} alt='logo'></img>
+          <img src={logo} className='banner-image' alt='logo'></img>
         </div>
       </div>
     </section>
