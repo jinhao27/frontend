@@ -16,10 +16,12 @@ function Home() {
             </p>
           </div>
           <div className='home-right'>
-            <p className='home-text'>Win now, make forever friends</p>
-            <button className='join-button' href='/login'>
-              JOIN NOW
-            </button>
+            <p className='home-text'>Attend our tournament, SuperStackd</p>
+            <form>
+              <button type='submit' className='join-button' formaction='https://gamers.beam.gg/event/SuperStackd-9853736'>
+                REGISTER NOW
+              </button>
+            </form>
           </div>
         </div>
       </div>
