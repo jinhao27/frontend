@@ -7,7 +7,9 @@ function Header() {
     <section className='header'>
       <div className='wrapper'>
         <div className='logo'>
-          <img src={stackdheader} className='jadetext'></img>
+          <a href="/">
+            <img src={stackdheader} className='jadetext'></img>
+          </a>
         </div>
         <div className='links'>
           <ul>
@@ -19,6 +21,9 @@ function Header() {
             </li>
             <li>
               <a href='/about'>ABOUT US</a>
+            </li>
+            <li>
+              <a href='/'>HOME</a>
             </li>
           </ul>
           <link

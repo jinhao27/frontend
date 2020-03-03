@@ -16,7 +16,7 @@ function Home() {
             </p>
           </div>
           <div className='home-right'>
-            <p className='home-text'>win now, make forever friends</p>
+            <p className='home-text'>Win now, make forever friends</p>
             <button className='join-button' href='/login'>
               JOIN NOW
             </button>
