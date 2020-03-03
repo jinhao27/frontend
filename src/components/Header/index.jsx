@@ -11,14 +11,14 @@ function Header() {
         </div>
         <div className='links'>
           <ul>
-            <li>
+            {/*<li>
               <a href='/signup'>SIGN IN</a>
+            </li>*/}
+            <li>
+              <a href='/event'>EVENT</a>
             </li>
             <li>
               <a href='/about'>ABOUT US</a>
-            </li>
-            <li>
-              <a href='/event'>EVENT</a>
             </li>
           </ul>
           <link

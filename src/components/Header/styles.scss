@@ -3,6 +3,8 @@
   color: white;
   display: flex;
   flex-wrap: wrap;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .wrapper {
@@ -61,9 +63,11 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
   float: right;
-  font-family: 'Source Sans Pro';
+  font-family: 'Verdana';
   font-size: 20px;
   font-weight: bold;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 li a:hover {
