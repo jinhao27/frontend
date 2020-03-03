@@ -9,7 +9,11 @@
 
 .content {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  @media (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 }
 
 .banner-logo {
@@ -20,9 +24,8 @@
   color: white;
   text-align: left;
   font-family: Orbitron;
-  margin-top: 100px;
-  margin-bottom: 130px;
-  margin-left: 210px;
+  padding-top: 100px;
+  padding-left: 40px;
   font-size: 54px;
 }
 
