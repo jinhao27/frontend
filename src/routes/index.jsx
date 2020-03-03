@@ -15,6 +15,7 @@ const Routes = () => {
     <>
       <Header />
       <Router>
+        <Home path='/' />
         <Chat path='/chat' />
         <Dashboard path='/dashboard' />
         <Login path='/login' />
@@ -22,7 +23,6 @@ const Routes = () => {
         <About path='/about' />
         <Event path='/event' />
       </Router>
-      <Home />
       <Footer />
     </>
   );
