@@ -17,9 +17,11 @@ function Home() {
           </div>
           <div className='home-right'>
             <p className='home-text'>Attend our tournament, SuperStackd</p>
-            <button className='join-button' href='https://gamers.beam.gg/event/SuperStackd-9853736'>
-              REGISTER NOW
-            </button>
+            <form>
+              <button type='submit' className='join-button' formaction='https://gamers.beam.gg/event/SuperStackd-9853736'>
+                REGISTER NOW
+              </button>
+            </form>
           </div>
         </div>
       </div>
