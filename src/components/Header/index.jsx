@@ -1,14 +1,12 @@
 import React from 'react';
 import './styles.scss';
-import imageheader from '../../assets/images/StackdHeaderJade.png';
-import stackdheader from '../../assets/images/StackdHeaderText.png';
+import stackdheader from '../../assets/images/Logo_hwhite';
 
 function Header() {
   return (
     <section className='header'>
       <div className='wrapper'>
         <div className='logo'>
-          <img src={imageheader} className='jadeheader'></img>
           <img src={stackdheader} className='jadetext'></img>
         </div>
         <div className='links'>

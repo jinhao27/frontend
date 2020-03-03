@@ -1,59 +1,57 @@
 @import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
 
 #about-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #272727;
-    justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #272727;
+  justify-content: space-evenly;
 }
 
 #stackd-description {
-    width: 50%;
-    height: 50%;
-    margin: 50px;
+  padding: 50px;
 }
 
 #about-section p {
-    font-family: Verdana;
-    font-style: normal;
-    line-height: 35px;
-    font-size: 25px;
-    color: white;
+  font-family: Verdana;
+  font-style: normal;
+  line-height: 35px;
+  font-size: 25px;
+  color: white;
 }
 
 #image {
-    width: 75%;
+  width: 75%;
 }
 
 #team-photo {
-    width: 100%;
+  width: 100%;
 }
 
 #team-area {
-    width: 75%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-bottom: 100px;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 100px;
 }
 
 #team-area h1 {
-    font-family: Russo One;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 60px;
-    line-height: 72px;
-    color: white;
+  font-family: Russo One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: white;
 }
 
 #team-cards {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 #text-area {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
 }

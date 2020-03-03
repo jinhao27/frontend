@@ -11,7 +11,7 @@ function AboutHero() {
       <div class='title-bg'>
         <img src={longlogo} id='long-logo'></img>
         <div class='title-text'>
-          <h1>Our Company</h1>
+          <h1 id='banner-h1'>Our Company</h1>
         </div>
       </div>
 
@@ -22,7 +22,7 @@ function AboutHero() {
       <div class='banner'>
         <h1 id='banner-h1'>Looking to chat?</h1>
         <p id='banner-p'>
-          Contact us at
+          Contact us at :
           <a id='banner-a' href='mailto:info@stackd.gg?subject=Web Inquiry'>
             info@stackd.gg
           </a>

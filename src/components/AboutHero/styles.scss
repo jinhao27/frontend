@@ -3,7 +3,7 @@
 // (notice h1 in both banners are the same font size but title banner font is larger than email banner)
 //
 
-@import url("https://fonts.googleapis.com/css?family=Russo+One&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
 
 body,
 html {
@@ -13,7 +13,8 @@ html {
 //logo banner
 .title-bg {
   height: 60vh;
-  background: black center url("../../assets/images/AboutHero_bg");
+  width: 100vw;
+  background: black center url('../../assets/images/AboutHero_bg');
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -22,8 +23,11 @@ html {
 }
 
 #long-logo {
-  height: 25%;
-  margin: 0;
+  height: 15%;
+  @media (min-width: 768px) {
+    height: 25%;
+    margin: 0;
+  }
 }
 
 .title-text {
@@ -36,7 +40,7 @@ html {
 //email banner
 .banner {
   height: 40vh;
-  background: black center url("../../assets/images/AboutHero_bg");
+  background: black center url('../../assets/images/AboutHero_bg');
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -47,8 +51,11 @@ html {
 
 #banner-h1 {
   font-family: Russo One;
-  font-size: 45pt;
+  font-size: 40pt;
   margin-bottom: 0;
+  @media (min-width: 768px) {
+    font-size: 45pt;
+  }
 }
 #banner-p {
   font-size: 27.5pt;
