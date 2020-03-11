@@ -1,12 +1,11 @@
 import React from 'react';
 import Routes from '../src/routes';
-import logo from '../src/assets/images/jade1';
 import './App.css';
 
 function App() {
   return (
     <div className='App'>
-      <header className='App-header'>
+      {/* <header className='App-header'>
         <p>Build in progress</p>
         <img src={logo} className='App-logo' alt='logo' />
         <a
@@ -16,7 +15,7 @@ function App() {
           rel='noopener noreferrer'>
           Stackd Time
         </a>
-      </header>
+      </header> */}
       <Routes />
     </div>
   );

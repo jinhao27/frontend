@@ -1,0 +1,77 @@
+.header {
+  background-color: #272727;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+}
+
+.logo {
+  display: flex;
+  padding-left: 20px;
+  @media (min-width: 768px) {
+    padding-left: 60px;
+  }
+}
+
+.jadeheader {
+  height: 40px;
+}
+
+.jadetext {
+  height: 40px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: right;
+  float: right;
+}
+
+.links {
+  display: flex;
+  align-self: center;
+  @media (min-width: 768px) {
+    justify-content: flex-end;
+    width: 100%;
+  }
+}
+
+li {
+  float: right;
+  display: block;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: right;
+  font-family: 'Verdana';
+  font-size: 20px;
+  font-weight: bold;
+  @media (min-width: 768px) {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+li a:hover {
+  color: #00b2b5;
+}
