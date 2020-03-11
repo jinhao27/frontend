@@ -7,7 +7,7 @@ function Header() {
     <section className='header'>
       <div className='wrapper'>
         <div className='logo'>
-          <a href="/">
+          <a href='/'>
             <img src={stackdheader} className='jadetext'></img>
           </a>
         </div>
