@@ -16,37 +16,62 @@
 
 .pf {
   margin-top: 60px;
-  margin-bottom: 75px;
+  padding-bottom: 20px;
+
+  @media (min-width: 768px) {
+    margin-top: 45px;
+  }
 }
+
+.profile-pic {
+  width: 70%;
+  @media (min-width: 768px) {
+    width: 100%;
+  }
+}
+
 .gamer {
-  margin-top: 110px;
+  display: flex;
   text-align: left;
+  padding-bottom: 20px;
+  @media (min-width: 768px) {
+    display: block;
+    margin-top: 110px;
+  }
 }
-p {
+
+.welcome-text {
   margin: 0;
   padding: 0;
 }
 
 .welcome {
+  font-size: 40px;
   font-family: Russo One;
   font-style: normal;
   font-weight: normal;
-  font-size: 50px;
   color: white;
+  @media (min-width: 768px) {
+    font-size: 50px;
+  }
 }
 
 .nickname {
   font-family: Orbitron;
   font-style: normal;
   font-weight: bold;
-  font-size: 80px;
+  font-size: 30px;
   background: -webkit-linear-gradient(#eee, rgba(68, 233, 255, 0.8));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  @media (min-width: 768px) {
+    font-size: 80px;
+  }
 }
 
 .rating {
   display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   flex-wrap: wrap;
   align-items: center;
   font-style: italic;
@@ -54,5 +79,17 @@ p {
   font-size: 25px;
   line-height: 30px;
   color: white;
-  margin-top: 20px;
+  padding-top: 25px;
+  padding-left: 20px;
+  @media (min-width: 768px) {
+    padding: 0;
+  }
+}
+
+.number {
+  padding-left: 10px;
+
+  @media (min-width: 768px) {
+    font-size: 35px;
+  }
 }

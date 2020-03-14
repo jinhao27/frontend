@@ -8,19 +8,20 @@ function DashboardHeader() {
     <div className='dashboard-container'>
       <div className='userinfo'>
         <div className='pf'>
-          <img src={samplepf} alt='profile'></img>
+          <img src={samplepf} alt='profile' className='profile-pic'></img>
         </div>
         <div className='gamer'>
-          <div className='welcome'>
-            <p>Welcome,</p>
-          </div>
-          {/*gamer name, rate, and statics will be changed*/}
-          <div className='nickname'>
-            <p>gamergiiirlxo</p>
+          <div className='gamer-info'>
+            <div className='welcome'>
+              <p className='welcome-text'>Welcome,</p>
+            </div>
+            <div className='nickname'>
+              <p className='welcome-text'>gamergiiirlxo</p>
+            </div>
           </div>
           <div className='rating'>
             <img src={ratestar} alt='ratestar'></img>
-            <p>4.7</p>
+            <p className='number'>4.7</p>
           </div>
         </div>
       </div>
