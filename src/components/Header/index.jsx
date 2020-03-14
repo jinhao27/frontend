@@ -8,7 +8,10 @@ function Header() {
       <div className='wrapper'>
         <div className='logo'>
           <a href='/'>
-            <img src={stackdheader} className='jadetext'></img>
+            <img
+              src={stackdheader}
+              className='jadetext'
+              alt='stackd header'></img>
           </a>
         </div>
         <div className='links'>

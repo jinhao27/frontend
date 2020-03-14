@@ -9,7 +9,7 @@ function AboutHero() {
     <section>
       {/* Title banner */}
       <div class='title-bg'>
-        <img src={longlogo} id='long-logo'></img>
+        <img src={longlogo} id='long-logo' alt='company logo'></img>
         <div class='title-text'>
           <h1 id='banner-h1'>Our Company</h1>
         </div>
