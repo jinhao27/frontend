@@ -11,27 +11,24 @@ function EventBody() {
         <div id='intro-body'>
           <div id='intro-text'>
             <h1>
-              Join us for a safe and inclusive gaming tournament at Invictus
-              Game Station!
+              Join us for a safe and inclusive online gaming tournament!
             </h1>
           </div>
 
           <div id='location-info'>
-            <div id='map'>
-              <img src={mapimg} alt='map of location'></img>
-            </div>
 
             <div id='text-info'>
               <p id='p-info'>
-                <span id='sub'>Event Type: </span>Tournament
+                <span id='sub'>Event Type: </span>Online Tournament
               </p>
               <p id='p-info'>
-                <span id='sub'>Date and Time: </span>Fri, 20 Mar 2020 - 10:30 AM
-                to 6:00 PM EST
+                <span id='sub'>Date: </span>Fri, 27 Mar 2020 to Sat, 28 Mar 2020
               </p>
               <p id='p-info'>
-                <span id='sub'>Location: </span>Invictus Game Station - 558
-                Yonge St, Toronto, ON M4Y 1Z1
+                <span id='sub'>Time: </span>2:00 PM to 5:30 PM EST & 7:30 PM to 11:00 PM EST
+              </p>
+              <p id='p-info'>
+                <span id='sub'>Region: </span>North America
               </p>
               <p id='p-info'>
                 <span id='sub'>Games: </span>League of Legends
@@ -42,22 +39,13 @@ function EventBody() {
 
         <div id='description-body'>
           <p id='description-text'>
-            SuperStackd is an innovative League of Legends Summoner's Rift
-            tournament that aims to create a safe and inclusive environment for
-            casual and intermediate gamers! Join us on March 20 to win prizes
-            and get tips from gaming celebrities!
+            Due to the unfortunate COVID-19 situation, we have transitioned SuperStackd online and tentatively postponed the event at Invictus Game Station. SuperStackd Virtual is an online League of Legends Summoner's Rift tournament that aims to create a safe and inclusive environment for casual and intermediate gamers! Join us from March 27-28 for two fun-filled days of gaming and prizes.
           </p>
           <p id='description-text'>
-            Join our tournament as either a solo or duo and get drafted into a
-            team to meet like-minded gamers!
+          Enter our tournament as either a solo or duo and get drafted into a team to meet like-minded gamers!
           </p>
           <p id='description-sub'>Requirements: </p>
           <p id='description-text'>Rank of Platinum and below</p>
-          <p id='description-text'>
-            Note: The first competitors that sign up have a higher chance of
-            playing in an elevated gaming area. The different options are: the
-            VIP rooms, Stage area, and main area.
-          </p>
         </div>
 
         <div id='register-section-link'>

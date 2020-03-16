@@ -13,7 +13,7 @@ function EventBanner() {
             </b>
           </p>
           <p>
-            <b>03.20.2020</b>
+            <b>03.27-28.2020</b>
           </p>
           <div className='slogan'>
             <p>
