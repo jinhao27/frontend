@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+.chatcontainer {
+    background-color: #303030;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    color:white;
+    font-family: Russo One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+}
+
+.review{
+    text-align: left;
+
+    background-image: url("../../assets/images/reviewbg.png");
+}
+.chatlogo{
+    margin-top: 64px;
+    margin-bottom: 57px;
+    margin-right: 38px;
+
+}
+.players {
+    margin-left: 100px;
+}
+.player {
+    margin-left: 200px;
+    margin: 100px;
+    background: white;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    height: 77px;
+    width: 1579px;
+    font-family: Russo One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    color: black;
+
+}
