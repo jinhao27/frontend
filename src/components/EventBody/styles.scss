@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
+
+#event-body {
+  background-color: #272727;
+}
+
+#intro-body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+}
+
+#intro-text {
+  width: 75%;
+}
+
+#intro-text h1 {
+  font-family: Russo One;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 30px;
+  color: white;
+  @media (min-width: 768px) {
+    font-size: 45px;
+  }
+}
+
+#location-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  @media (min-width: 1024px) {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+#map {
+  width: 100%;
+  @media (min-width: 1024px) {
+    width: 50%;
+  }
+}
+
+#map img {
+  width: 100%;
+  @media (min-width: 1024px) {
+    width: 100%;
+  }
+}
+
+#text-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  @media (min-width: 1024px) {
+    width: 50%;
+  }
+}
+
+#sub {
+  font-family: Russo One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  color: rgb(68, 233, 255);
+  margin: 0;
+  @media (min-width: 768px) {
+    font-size: 35px;
+  }
+}
+
+#p-info {
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: white;
+  text-align: left;
+
+  @media (min-width: 768px) {
+    font-size: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 5px;
+  }
+}
+
+#description-body {
+  background-color: #1b1b1b;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  @media (min-width: 768px) {
+    align-items: flex-start;
+  }
+}
+
+#description-sub {
+  font-family: Russo One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: rgb(68, 233, 255);
+  text-align: left;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: -10px;
+  @media (min-width: 768px) {
+    font-size: 30px;
+  }
+}
+
+#description-text {
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: white;
+  text-align: left;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  @media (min-width: 768px) {
+    font-size: 28px;
+  }
+}
+
+#register-section-link {
+  height: 40vh;
+  background-image: url('../../assets/images/invictusbanner');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @media (min-width: 768px) {
+    height: 60vh;
+  }
+}
+
+#to-register {
+  font-family: Russo One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: white;
+  @media (min-width: 768px) {
+    font-size: 50px;
+  }
+}
+
+#event-button {
+  background-color: rgba(68, 233, 255, 0.43);
+  border: none;
+  border-radius: 20px;
+  padding: 30px 50px 30px 50px;
+
+  font-family: Russo One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: #d9d7d7;
+  text-align: center;
+  @media (min-width: 768px) {
+    font-size: 50px;
+  }
+}
+
+#guest-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(26, 26, 26, 0.8);
+  padding-bottom: 60px;
+  width: 100%;
+}
+
+#guest-text h1 {
+  font-family: Russo One;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 30px;
+  color: rgb(68, 233, 255);
+  text-align: center;
+  @media (min-width: 768px) {
+    text-align: left;
+    font-size: 60px;
+    padding-left: 60px;
+  }
+}
+
+#guest-row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#profileimg {
+  width: 95%;
+}
+
+#name {
+  font-family: Russo One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  color: white;
+  margin: 20px;
+}

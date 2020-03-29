@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+
+.dashboard-container {
+  background-image: url('../../assets/images/dbheaderbg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+
+.userinfo {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pf {
+  margin-top: 60px;
+  padding-bottom: 20px;
+
+  @media (min-width: 768px) {
+    margin-top: 45px;
+  }
+}
+
+.profile-pic {
+  width: 70%;
+  @media (min-width: 768px) {
+    width: 100%;
+  }
+}
+
+.gamer {
+  display: flex;
+  text-align: left;
+  padding-bottom: 20px;
+  @media (min-width: 768px) {
+    display: block;
+    margin-top: 110px;
+  }
+}
+
+.welcome-text {
+  margin: 0;
+  padding: 0;
+}
+
+.welcome {
+  font-size: 40px;
+  font-family: Russo One;
+  font-style: normal;
+  font-weight: normal;
+  color: white;
+  @media (min-width: 768px) {
+    font-size: 50px;
+  }
+}
+
+.nickname {
+  font-family: Orbitron;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  background: -webkit-linear-gradient(#eee, rgba(68, 233, 255, 0.8));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  @media (min-width: 768px) {
+    font-size: 80px;
+  }
+}
+
+.rating {
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  flex-wrap: wrap;
+  align-items: center;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 30px;
+  color: white;
+  padding-top: 25px;
+  padding-left: 20px;
+  @media (min-width: 768px) {
+    padding: 0;
+  }
+}
+
+.number {
+  padding-left: 10px;
+
+  @media (min-width: 768px) {
+    font-size: 35px;
+  }
+}

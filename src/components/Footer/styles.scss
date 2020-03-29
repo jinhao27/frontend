@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
+
+footer {
+  background-color: #272727;
+  padding: 50px;
+}
+
+#blueJade {
+  height: 63px;
+  margin-right: 20px;
+}
+
+#blueStackd {
+  height: 50px;
+  @media (min-width: 768px) {
+    height: 90px;
+  }
+}
+
+.slogan {
+  margin-top: 10px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#blue-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#stackd-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  @media (min-width: 768px) {
+    margin-left: 30px;
+  }
+}
+
+#social-link-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+#social-link-area p {
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 31px;
+  color: #e5e5e5;
+}
+
+#social-links a {
+  background: #fff;
+  width: 65px;
+  height: 65px;
+  display: inline-block;
+  text-align: center;
+  transition: all 0.3s ease 0s;
+  margin: 5px;
+}
+
+#social-links a:hover {
+  box-shadow: 1px 1px 15px 0px rgba(68, 233, 255, 0.6);
+  background: rgba(68, 233, 255, 0.6);
+}
+
+#social-links a:hover #icon {
+  color: #fff;
+}
+
+#social-links a #icon {
+  padding: 12px;
+}
+
+#social-links #icon {
+  color: #272727;
+  height: 46px;
+  font-size: 30px;
+  transition: all 0.3s ease 0s;
+}
+
+#link-area {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#site-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#link-area #site-links a {
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #d9d7d7;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+#contact-area {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+#contact-area p {
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #d9d7d7;
+  text-align: left;
+  margin-top: 0;
+}
+
+#contact-area form {
+  width: 100%;
+}
+
+#contact-area button {
+  width: 100%;
+  height: 61px;
+  background-color: rgba(68, 233, 255, 0.6);
+  border: none;
+  border-radius: 20px;
+  margin-top: 30px;
+
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #d9d7d7;
+  text-align: center;
+}
+
+.heading {
+  font-family: Russo One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 42px;
+  color: rgba(255, 255, 255, 0.6);
+}

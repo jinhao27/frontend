@@ -1,10 +1,30 @@
 import React from 'react';
 import './styles.scss';
+import logo from '../../assets/images/logo.png';
 
 function EventBanner() {
   return (
-    <section>
-      <h2> this is the event banner</h2>
+    <section className='container'>
+      <div className='content'>
+        <div className='text'>
+          <p>
+            <b>
+              Super<font color='#61dafb'>Stackd</font>
+            </b>
+          </p>
+          <p>
+            <b>03.27-28.2020</b>
+          </p>
+          <div className='slogan'>
+            <p>
+              <b>#leveltheplayingfield</b>
+            </p>
+          </div>
+        </div>
+        <div className='banner-logo'>
+          <img src={logo} className='banner-image' alt='logo'></img>
+        </div>
+      </div>
     </section>
   );
 }
