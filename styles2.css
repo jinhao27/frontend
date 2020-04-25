@@ -1,0 +1,272 @@
+body {
+    background-color: black;
+}
+
+p {
+    position: absolute;
+}
+
+.sylas {
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+.rectangle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 40px;
+    width: 96%;
+}
+
+.rectangle1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    width: 96%;
+}
+
+.rectangle2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 96%;
+}
+
+.rectangle3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 96%;
+}
+
+.pfp {
+    position: absolute;
+    left: 250px;
+    top: 345px;
+}
+
+.pfp1 {
+    position: absolute;
+    left: 250px;
+    top: 60px;
+}
+
+.pfp2 {
+    position: absolute;
+    left: 250px;
+    top: 630px;
+}
+
+.pfp3 {
+    position: absolute;
+    left: 250px;
+    top: 915px;
+}
+
+.name {
+    top: 40px;
+    left: 630px;
+    color: #44E9FF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 54px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.name1 {
+    top: 330px;
+    left: 630px;
+    color: #44E9FF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 54px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.name2 {
+    top: 610px;
+    left: 630px;
+    color: #44E9FF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 54px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.name3 {
+    top: 900px;
+    left: 630px;
+    color: #44E9FF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 54px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.user {
+    font-style: normal;
+    font-weight: 3;
+    font-size: 20px;
+    line-height: 38px;
+    color: #656565;
+    left: 640px;
+    top: 115px;
+}
+
+.user1 {
+    font-style: normal;
+    font-weight: 3;
+    font-size: 20px;
+    line-height: 38px;
+    color: #656565;
+    left: 640px;
+    top: 405px;
+}
+
+.user2 {
+    font-style: normal;
+    font-weight: 3;
+    font-size: 20px;
+    line-height: 38px;
+    color: #656565;
+    left: 640px;
+    top: 680px;
+}
+
+.user3 {
+    font-style: normal;
+    font-weight: 3;
+    font-size: 20px;
+    line-height: 38px;
+    color: #656565;
+    left: 640px;
+    top: 970px;
+}
+
+.star {
+    position: absolute;
+    left: 635px;
+    top: 170px;
+}
+
+.star1 {
+    position: absolute;
+    left: 635px;
+    top: 460px;
+}
+
+.star2 {
+    position: absolute;
+    left: 635px;
+    top: 730px;
+}
+
+.star3 {
+    position: absolute;
+    left: 635px;
+    top: 1020px;
+}
+
+.rating {
+    position: absolute;
+    left: 685px;
+    top: 164px;
+}
+
+.rating1 {
+    position: absolute;
+    left: 685px;
+    top: 454px;
+}
+
+.rating2 {
+    position: absolute;
+    left: 685px;
+    top: 724px;
+}
+
+.rating3 {
+    position: absolute;
+    left: 685px;
+    top: 1014px;
+}
+
+.button {
+    position: absolute;
+    left: 1550px;
+    top: 150px;
+}
+
+.button1 {
+    position: absolute;
+    left: 1550px;
+    top: 440px;
+}
+
+.button2 {
+    position: absolute;
+    left: 1550px;
+    top: 730px;
+}
+
+.button3 {
+    position: absolute;
+    left: 1550px;
+    top: 1020px;
+}
+
+.buttontext {   
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 44px;
+    color:white;
+    left: 1600px;
+    top: 125px;
+}
+
+.buttontext1 {   
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 44px;
+    color:white;
+    left: 1600px;
+    top: 415px;
+}
+
+.buttontext2 {   
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 44px;
+    color:white;
+    left: 1600px;
+    top: 705px;
+}
+
+.buttontext3 {   
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 44px;
+    color:white;
+    left: 1600px;
+    top: 995px;
+}
+
+
